@@ -1,4 +1,4 @@
-AC_INIT([dc-console],[1.0],[hello@decentralised-project.org])
+AC_INIT([dcConsole],[1.0],[hello@decentralised-project.org])
 
 AC_CONFIG_SRCDIR([src/main.cpp])
 

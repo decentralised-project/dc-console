@@ -6,8 +6,8 @@ AM_CXXFLAGS = -I$(top_srcdir)/src @AM_CXXFLAGS@
 ###############################################################################
 
 # the program to build (the names of the final binaries)
-bin_PROGRAMS = dc-console
+bin_PROGRAMS = dcConsole
 
 # list of sources
-dc-console_SOURCES =    \
+dcConsole_SOURCES =    \
                         main.cpp

@@ -1,17 +1,13 @@
 language: cpp
-sudo: required
-dist: trusty
 compiler:
-- clang
+  - clang
+  - gcc
 before_script: ./autogen.sh
 os:
 - linux
 branches:
   only:
   - master
-  - "/^v\\d+\\./"
-notifications:
-  email: false
 env:
   global:
   - LANG="en_US.UTF-8"

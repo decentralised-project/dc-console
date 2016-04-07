@@ -5,7 +5,6 @@ AC_CONFIG_SRCDIR([src/main.cpp])
 # check for C++ preprocessor and compiler and the library compiler
 AC_PROG_CXXCPP
 AC_PROG_CXX
-AC_PROG_RANLIB
 
 # automake initialisation and check for minimal automake API version 1.9
 AM_INIT_AUTOMAKE([1.9])

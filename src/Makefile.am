@@ -9,5 +9,5 @@ AM_CXXFLAGS = -I$(top_srcdir)/src @AM_CXXFLAGS@
 bin_PROGRAMS = dc-console
 
 # list of sources
-helloWorld_SOURCES =    \
+dc-console_SOURCES =    \
                         main.cpp

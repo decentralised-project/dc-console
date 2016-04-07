@@ -1,0 +1,3 @@
+[submodule "dependencies/dc-core"]
+	path = dependencies/dc-core
+	url = https://github.com/decentralised-project/dc-core.git

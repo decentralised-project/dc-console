@@ -28,8 +28,7 @@ AC_SUBST([AM_LDFLAGS])
 
 # files to generate via autotools (.am or .in source files)
 AC_CONFIG_FILES([Makefile])
-AC_CONFIG_FILES([src/mylib/Makefile])
-AC_CONFIG_FILES([src/bin/Makefile])
+AC_CONFIG_FILES([src/Makefile])
 
 # generate the final Makefile etc.
 AC_OUTPUT

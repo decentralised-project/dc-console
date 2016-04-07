@@ -3,6 +3,8 @@ sudo: required
 compiler:
   - clang
 before_script: ./autogen.sh
+script:
+ - ./configure && make
 os:
 - linux
 branches:

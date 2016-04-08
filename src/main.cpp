@@ -42,7 +42,9 @@ int main(int argc, char** argv)
 		{
 			if (consoleLines.size() > rows - i - 2)
 			{
-				std::list<std::wstring>::iterator it = std::next(consoleLines.begin(), rows - i - 2);
+				std::list<std::wstring>::iterator it = consoleLines.begin();
+				std::advance(it, rows - i - 2);
+				
 				std::cout << std::setiosflags(std::ios::left) << std::setw(columns) << std::string(it->begin(), it->end());
 			}
 			else

@@ -17,3 +17,7 @@ target_link_libraries ( dcConsole dcCore )
 IF( WIN32 )
 	ADD_DEFINITIONS( -DDC_WINDOWS )
 ENDIF(  )
+
+if( UNIX )
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++0x")
+ENDIF(  )

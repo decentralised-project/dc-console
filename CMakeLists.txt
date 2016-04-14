@@ -5,4 +5,5 @@ project (dcConsole)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 message ("cxx Flags: " ${CMAKE_CXX_FLAGS})
 
+add_subdirectory(dependencies/dc-core)
 add_subdirectory(src)
